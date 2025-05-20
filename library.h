@@ -16,7 +16,22 @@ extern "C"
  * @param str A pointer to the null-terminated string whose length is to be calculated.
  * @return The length of the string, excluding the null terminator.
  */
-size_t str_len(const char *str);
+inline size_t str_len(const char *str)
+{
+    // Define a result
+    size_t result = 0;
+
+    // Loop through every character
+    while (*str != '\0')
+    {
+        result++;
+
+        // Move to the next character
+        str++;
+    }
+
+    return result;
+}
 
 #if defined(__cplusplus)
 }
