@@ -7,8 +7,12 @@
  * This is free software, and you are welcome to redistribute it
  * under certain conditions; type `show c' for details.
 */
+#if defined(__cplusplus)
+extern "C"
+{
+#endif
 
-#include <stddef.h>
+typedef unsigned long size_t;
 #include "library.h"
 
 /**
@@ -37,3 +41,7 @@ size_t str_len(const char *str)
 
     return result;
 }
+
+#if defined(__cplusplus)
+}
+#endif
