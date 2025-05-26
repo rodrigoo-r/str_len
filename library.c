@@ -8,14 +8,4 @@
  * under certain conditions; type `show c' for details.
 */
 
-#if defined(__cplusplus)
-extern "C"
-{
-#endif
-
-typedef unsigned long size_t;
 #include "library.h"
-
-#if defined(__cplusplus)
-}
-#endif
