@@ -9,8 +9,8 @@
 */
 
 
-#ifndef STRLEN_LIBRARY_H
-#define STRLEN_LIBRARY_H
+#ifndef FLUENT_LIBC_STRLEN_LIBRARY_H
+#define FLUENT_LIBC_STRLEN_LIBRARY_H
 
 #if defined(__cplusplus)
 extern "C"
@@ -50,4 +50,4 @@ inline size_t str_len(const char *str)
 }
 #endif
 
-#endif //STRLEN_LIBRARY_H
+#endif //FLUENT_LIBC_STRLEN_LIBRARY_H
