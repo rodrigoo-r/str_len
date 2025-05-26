@@ -8,4 +8,4 @@
  * under certain conditions; type `show c' for details.
 */
 
-#include "strlen.h"
+#include "str_len.h"
