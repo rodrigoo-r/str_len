@@ -8,4 +8,4 @@
  * under certain conditions; type `show c' for details.
 */
 
-#include "include/fluent/str_len/str_len.h"
+#include "str_len.h"
