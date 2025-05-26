@@ -17,6 +17,8 @@ extern "C"
 {
 #endif
 
+typedef unsigned long size_t;
+
 /**
  * @brief Calculates the length of a null-terminated string.
  *
