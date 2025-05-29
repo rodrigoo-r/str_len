@@ -3,4 +3,4 @@ project(strlen C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_library(strlen STATIC str_len.c)
+add_library(strlen STATIC str_len.c str_len.h)
