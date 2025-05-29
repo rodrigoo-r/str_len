@@ -17,7 +17,11 @@ extern "C"
 {
 #endif
 
-typedef unsigned long size_t;
+#ifndef FLUENT_LIBC_RELEASE
+#   include <types.h> // fluent_libc
+#else
+#   include <fluent/types/types.h> // fluent_libc
+#endif
 
 /**
  * @brief Calculates the length of a null-terminated string.
