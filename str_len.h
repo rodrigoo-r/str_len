@@ -29,7 +29,7 @@ typedef unsigned long size_t;
  * @param str A pointer to the null-terminated string whose length is to be calculated.
  * @return The length of the string, excluding the null terminator.
  */
-inline size_t str_len(const char *str)
+static inline size_t str_len(const char *str)
 {
     // Define a result
     size_t result = 0;
